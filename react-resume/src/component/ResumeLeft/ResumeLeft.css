@@ -1,0 +1,77 @@
+.resume-left{
+    display: flex;
+    flex-direction: column;
+    height: 1160px;
+    width: 236px;
+    background-color: #254665;
+    color: white;
+}
+
+.my-img{
+    margin: 30px auto;
+    width: 132px;
+    height: 132px;
+    background: url(../../icons/头像.jpg) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+.base-info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.base-info .item{
+    margin: 20px 20px;
+    font-size: 13px;
+    line-height: 26px;
+}
+
+.item-age i{
+    font-size: 26px;
+    width: 26px;
+    height: 26px;
+    display: block;
+    margin-right: 12px;
+    float: left;
+}
+
+.item-sex i{
+    font-size: 26px;
+    width: 26px;
+    height: 26px;
+    display: block;
+    margin-right: 12px;
+    float: left;
+}
+
+.item-workage i{
+    width: 26px;
+    height: 26px;
+    display: block;
+    font-size: 26px;
+    margin-right: 12px;
+    float: left;
+}
+
+.item-phonenumber i{
+    width: 26px;
+    height: 26px;
+    display: block;
+    font-size: 26px;
+    margin-right: 12px;
+    float: left;
+}
+
+.item-email i{
+    width: 26px;
+    height: 26px;
+    display: block;
+    font-size: 26px;
+    margin-right: 12px;
+    float: left;
+}
+
+.skill{
+    margin: 0 25px;
+}

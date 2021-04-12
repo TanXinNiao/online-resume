@@ -1,0 +1,10 @@
+#resume-content{
+    width: 980px;
+    margin: 10px auto;
+    height: 1718px;
+}
+
+#resume-pdf{
+    margin: 0 auto;
+    display: flex;
+}

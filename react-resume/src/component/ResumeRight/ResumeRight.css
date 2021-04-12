@@ -1,0 +1,411 @@
+.resume-right{
+    width: 600px;
+    height: 1145px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px 10px 30px;
+}
+
+.resume-right .job-intension{
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-right .job-intension h1{
+    color: rgb(40, 73, 103);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 30px 0 5px 20px;
+}
+
+.resume-right .job-intension-list{
+    display: flex;
+    flex-flow: wrap;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+.resume-right .job-intension-list .item{
+    width: 200px;
+    margin-top: 10px;
+    flex-grow: 1;
+    font-size: 14px;
+    color: rgb(40, 73, 103);
+}
+
+.resume-right .item-job-required{
+}
+
+.resume-right .item-job-city{
+
+}
+
+.resume-right .item-job-salary{
+}
+.resume-right .item-job-time{
+
+}
+
+.resume-right .education-backgoround{
+
+}
+
+.resume-right .education-logo-block{
+    font-size: 16px;
+    color: rgb(40, 73, 103);
+    margin: 20px 20px 20px 0;
+    font-weight: 600;
+    display: flex;
+}
+
+.resume-right .education-logo{
+    width: 30px;
+    height: 30px;
+    background: url(../../icons/教育背景.png) no-repeat center center;
+    background-size: 26px 26px;
+    background-color: #284967;
+    border-radius: 30px;
+}
+
+.resume-right .education-title{
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+.resume-right .education-logo-block .line{
+    border-top: 1px solid #284967;
+    margin-top: 10px;
+    width: 530px;
+}
+
+.resume-right .education-header{
+    display: flex;
+    font-size: 14px;
+    color: #284967;
+}
+
+.resume-right .education-time{
+    margin: 0 50px 10px 10px;
+}
+
+.resume-right .education-school{
+    margin: 0 20px 10px 10px;
+    font-weight: 600;
+}
+
+.resume-right .education-subject{
+    margin: 0 0 10px auto;
+}
+
+.resume-right .education-degree{
+    margin: 0 40px 10px 0;
+}
+.resume-right .education-description{
+    margin: 2px 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.resume-right .work-experience{
+
+}
+
+.resume-right .work-logo-block{
+    font-size: 16px;
+    color: rgb(40, 73, 103);
+    margin: 20px 20px 20px 0;
+    font-weight: 600;
+    display: flex;
+}
+
+.resume-right .work-logo{
+    width: 30px;
+    height: 30px;
+    background: url(../../icons/工作经验.png) no-repeat center center;
+    background-size: 26px 26px;
+    background-color: #284967;
+    border-radius: 30px;
+}
+
+.resume-right .work-title{
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+.resume-right .work-logo-block .line{
+    border-top: 1px solid #284967;
+    margin-top: 10px;
+    width: 530px;
+}
+
+.resume-right .work-header{
+    display: flex;
+    font-size: 14px;
+    color: #284967;
+}
+
+.resume-right .work-time{
+    margin: 0 50px 10px 10px;
+}
+
+.resume-right .work-company{
+    margin: 0 20px 10px 10px;
+    font-weight: 600;
+}
+
+.resume-right .work-position{
+    margin: 0 100px 10px auto;
+}
+
+.resume-right .work-description{
+    margin: 2px 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.resume-right .project-experience{
+
+}
+
+.resume-right .project-logo-block{
+    font-size: 16px;
+    color: rgb(40, 73, 103);
+    margin: 20px 20px 20px 0;
+    font-weight: 600;
+    display: flex;
+}
+
+.resume-right .project-logo{
+    width: 30px;
+    height: 30px;
+    background: url(../../icons/项目经验.png) no-repeat center center;
+    background-size: 21px 21px;
+    background-color: #284967;
+    border-radius: 30px;
+}
+
+.resume-right .project-title{
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+.resume-right .project-logo-block .line{
+    border-top: 1px solid #284967;
+    margin-top: 10px;
+    width: 530px;
+}
+
+.resume-right .project-header{
+    display: flex;
+    font-size: 14px;
+    color: #284967;
+}
+
+.resume-right .project-time{
+    margin: 0 50px 10px 10px;
+}
+
+.resume-right .project-name{
+    margin: 0 20px 10px 10px;
+    font-weight: 600;
+}
+
+.resume-right .project-role{
+    margin: 0 100px 10px auto;
+}
+
+.resume-right .project-description{
+    margin: 2px 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.resume-right .intern-experience{
+
+}
+
+.resume-right .intern-logo-block{
+    font-size: 16px;
+    color: rgb(40, 73, 103);
+    margin: 20px 20px 20px 0;
+    font-weight: 600;
+    display: flex;
+}
+
+.resume-right .intern-logo{
+    width: 30px;
+    height: 30px;
+    background: url(../../icons/实习经验.png) no-repeat center center;
+    background-size: 22px 22px;
+    background-color: #284967;
+    border-radius: 30px;
+}
+
+.resume-right .intern-title{
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+.resume-right .intern-logo-block .line{
+    border-top: 1px solid #284967;
+    margin-top: 10px;
+    width: 530px;
+}
+
+.resume-right .intern-header{
+    display: flex;
+    font-size: 14px;
+    color: #284967;
+}
+
+.resume-right .intern-time{
+    margin: 0 50px 10px 10px;
+}
+
+.resume-right .intern-company{
+    margin: 0 20px 10px 10px;
+    font-weight: 600;
+}
+
+.resume-right .intern-role{
+    margin: 0 100px 10px auto;
+}
+
+.resume-right .intern-description{
+    margin: 2px 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.resume-right .campus-experience{
+
+}
+
+.resume-right .campus-logo-block{
+    font-size: 16px;
+    color: rgb(40, 73, 103);
+    margin: 20px 20px 20px 0;
+    font-weight: 600;
+    display: flex;
+}
+
+.resume-right .campus-logo{
+    width: 30px;
+    height: 30px;
+    background: url(../../icons/校园经历.png) no-repeat center center;
+    background-size: 22px 22px;
+    background-color: #284967;
+    border-radius: 30px;
+}
+
+.resume-right .campus-title{
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+.resume-right .campus-logo-block .line{
+    border-top: 1px solid #284967;
+    margin-top: 10px;
+    width: 530px;
+}
+
+.resume-right .campus-header{
+    display: flex;
+    font-size: 14px;
+    color: #284967;
+}
+
+.resume-right .campus-time{
+    margin: 0 50px 10px 10px;
+}
+
+.resume-right .campus-name{
+    margin: 0 20px 10px 10px;
+    font-weight: 600;
+}
+
+.resume-right .campus-role{
+    margin: 0 100px 10px auto;
+}
+
+.resume-right .campus-description{
+    margin: 2px 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.resume-right .honour-experience{
+
+}
+
+.resume-right .honour-logo-block{
+    font-size: 16px;
+    color: rgb(40, 73, 103);
+    margin: 20px 20px 20px 0;
+    font-weight: 600;
+    display: flex;
+}
+
+.resume-right .honour-logo{
+    width: 30px;
+    height: 30px;
+    background: url(../../icons/荣誉证书.png) no-repeat center center;
+    background-size: 22px 22px;
+    background-color: #284967;
+    border-radius: 30px;
+}
+
+.resume-right .honour-title{
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+.resume-right .honour-logo-block .line{
+    border-top: 1px solid #284967;
+    margin-top: 10px;
+    width: 530px;
+}
+.resume-right .honour-description{
+    margin: 2px 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.resume-right .self-evaluatione{
+
+}
+
+.resume-right .evaluatione-logo-block{
+    font-size: 16px;
+    color: rgb(40, 73, 103);
+    margin: 20px 20px 20px 0;
+    font-weight: 600;
+    display: flex;
+}
+
+.resume-right .evaluatione-logo{
+    width: 30px;
+    height: 30px;
+    background: url(../../icons/自我评价.png) no-repeat center center;
+    background-size: 24px 24px;
+    background-color: #284967;
+    border-radius: 30px;
+}
+
+.resume-right .evaluatione-title{
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+.resume-right .evaluatione-logo-block .line{
+    border-top: 1px solid #284967;
+    margin-top: 10px;
+    width: 530px;
+}
+.resume-right .evaluatione-description{
+    margin: 2px 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
